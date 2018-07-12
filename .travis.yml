@@ -4,7 +4,7 @@ node_js:
 env:
   global:
     - NODE_ENV=TEST
-    - CC_TEST_REPORTER_ID=3b8fe1d9df746d9017827489daae1d325fa24b039787fb6b015eba07ce4ddfc8
+    - CC_TEST_REPORTER_ID=ea5aecafe024db3431a046585a8dffc0697d7df80ef4b1c1a50314910195cf50
 
 cache:
   yarn: true
