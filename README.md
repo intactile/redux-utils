@@ -27,14 +27,14 @@ Create a reduce which delegates to [case reducers](https://redux.js.org/recipes/
 ```javascript
 import { createModuleReducer } from "@intactile/redux-utils";
 
+const caseReducers = {
+  ADD: (state, action) => state + action.payload,
+  MULTIPLY: (state, action) => state * action.payload,
+  DIVIDE: (state, action) => state / action.payload
+};
+
 const initialState = 10;
-const reducer = createModuleReducer(
-  {
-    ADD: (state, action) => state + action.payload,
-    MULTIPLY: (state, action) => state * action.payload
-  },
-  1
-);
+const reducer = createModuleReducer(caseReducers, initialState);
 ```
 
 ### createActionCreator
