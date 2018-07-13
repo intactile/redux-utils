@@ -22,7 +22,7 @@ yarn add @intactile/redux-utils
 
 ### createModuleReducer
 
-Create a reduce which delegates to [case reducers](https://redux.js.org/recipes/structuring-reducers/refactoring-reducers-example#extracting-case-reducers):
+Create a reducer which delegates to [case reducers](https://redux.js.org/recipes/structuring-reducers/refactoring-reducers-example#extracting-case-reducers):
 
 ```javascript
 import { createModuleReducer } from "@intactile/redux-utils";
