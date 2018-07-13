@@ -1,6 +1,6 @@
 {
   "name": "@intactile/redux-utils",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Utilities to reduce redux boilerplate code",
   "main": "dist/index.js",
   "scripts": {
